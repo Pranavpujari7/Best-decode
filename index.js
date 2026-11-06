@@ -231,6 +231,7 @@ if (name === "setText" && !seenSig) seenSig = Array.prototype.map.call(args, fun
 } catch (e) {}
 });
 }
+// ===== PART 2 =====
 function pushToInput(text) {
 try {
 if (!InputCmds || typeof InputCmds.setText !== "function") return "no setText helper";
